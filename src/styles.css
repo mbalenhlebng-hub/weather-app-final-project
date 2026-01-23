@@ -1,0 +1,132 @@
+body {
+  background: #fff1f4;
+}
+
+.container {
+  background: #e4b9c2;
+  color: #5a3e36;
+  margin: 150px;
+  margin-top: 50px;
+  padding: 30px 40px;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+}
+
+header input[type="search"] {
+  width: 280px;
+  height: 45px;
+  font-size: 16px;
+  padding: 0 14px;
+  border-radius: 7px;
+  border: 1px solid rgba(77, 39, 15, 0.3);
+  background: rgba(255, 255, 255, 0.16);
+  color: #5a3e36;
+  flex: 1;
+  min-width: 0;
+}
+
+header input[type="submit"] {
+  height: 45px;
+  padding: 0 18px;
+  background: #ce4e68;
+  color: #5a3e36;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  min-width: 0;
+}
+
+header input::placeholder {
+  font-size: 15px;
+}
+
+hr {
+  margin-top: 30px;
+  border: none;
+  height: 1px;
+  background-color: rgba(77, 39, 15, 0.3);
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.current-temp-icon {
+  font-size: 42px;
+  position: relative;
+  top: 20px;
+}
+.current-temp-value {
+  font-size: 80px;
+  font-weight: bold;
+  color: #ce4e68;
+}
+.current-temp-unit {
+  font-size: 28px;
+  position: relative;
+  top: -4px;
+  color: #ce4e68;
+}
+.current-temp {
+  font-size: 50px;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  white-space: nowrap;
+}
+.current-details {
+  line-height: 25px;
+}
+.current-details strong {
+  color: #ce4e68;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.weather-forecast-date {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+    font-size: 25px;
+    text-align: center;
+}
+
+.weather-forecast-temp {
+    text-align: center;
+    color: #ce4e68;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.weather-forecast-temp-first {
+    padding: 0 10px;
+
+}
+
+footer {
+  text-align: center;
+}
+
+.search-input {
+  padding: 20px;
+}
